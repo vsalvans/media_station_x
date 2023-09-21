@@ -1,0 +1,12 @@
+[Unit]
+Description=Media Server
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/media /etc/media/media.cnf
+Restart=always
+User=%user%
+Group=%user%
+
+[Install]
+WantedBy=multi-user.target

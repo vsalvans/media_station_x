@@ -1,6 +1,0 @@
-{    
-    "name": "Welcome to Family Media Station",
-    "version": "1.0.0",
-    "parameter": "content:http://{SERVER}/msx/content.json",
-    "welcome": "none"
-}

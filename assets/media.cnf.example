@@ -1,0 +1,14 @@
+server {
+        title: My Media
+        host: 192.168.1.100
+        port: 8080
+        media_buffer: 49999024
+        
+        location family {
+                name: My fotos
+                media_dir: /media/my-photos
+                file_types: jpg, jpeg, png
+                display: grid
+        }
+}
+
